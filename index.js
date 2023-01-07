@@ -38,8 +38,8 @@ function pdfHandler(page, body, pdf, num) {
     setTimeout(function () {
       var link = `${base}${pdf.attr("href")}`;
       var filename = link.toString().split("/").reverse()[0];
-      console.log(`filename: ${filename}`);
-      console.log(`link: ${link}`);
+      // console.log(`filename: ${filename}`);
+      // console.log(`link: ${link}`);
 
       var options = {
         url: link,
