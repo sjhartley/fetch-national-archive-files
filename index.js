@@ -131,7 +131,7 @@ function getPage(endpoint, page) {
 }
 
 async function batchDownload() {
-  for (var i = 0; i <= 0; i++) {
+  for (var i = 0; i <= numPages; i++) {
     const i1 = i;
 
     await getPage(endpoint, i1).then(function (response) {
